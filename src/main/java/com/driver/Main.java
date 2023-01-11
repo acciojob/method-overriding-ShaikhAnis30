@@ -3,6 +3,7 @@ package com.driver;
 public class Main {
   public static void main(String args[]) {
     B obj = new B();
+//     System.out.println(obj.meth());
     obj.meth(); // called before Overriding
     // o/p : Invoking method from class A
     
